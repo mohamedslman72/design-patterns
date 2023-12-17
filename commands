@@ -1,0 +1,4 @@
+docker run --rm -it asmaa/design_patterns_image /bin/bash
+
+php src/index.php // run the project
+docker exec -it 907ebcf1858e /bin/bash // exec the image by container id

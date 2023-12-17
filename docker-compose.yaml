@@ -1,0 +1,7 @@
+    services:
+      app:
+        image: asmaa/design_patterns_image
+        restart: always
+        volumes:
+          - .:/usr/src/myapp
+        entrypoint: [ "/bin/sleep", "Infinity" ]
